@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7FAA7A81F02E31600BE86F5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FAA7A71F02E31600BE86F5 /* DetailViewController.swift */; };
 		FAE17A651F0063EE00EE3BC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE17A641F0063EE00EE3BC7 /* AppDelegate.swift */; };
 		FAE17A6A1F0063EE00EE3BC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE17A681F0063EE00EE3BC7 /* Main.storyboard */; };
 		FAE17A6C1F0063EE00EE3BC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE17A6B1F0063EE00EE3BC7 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F7FAA7A71F02E31600BE86F5 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FAE17A611F0063EE00EE3BC7 /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE17A641F0063EE00EE3BC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAE17A691F0063EE00EE3BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			children = (
 				FAE17A641F0063EE00EE3BC7 /* AppDelegate.swift */,
 				FAE17A681F0063EE00EE3BC7 /* Main.storyboard */,
+				F7FAA7A71F02E31600BE86F5 /* DetailViewController.swift */,
 				FAE17A941F0064A100EE3BC7 /* Item.swift */,
 				FAE17A961F00668700EE3BC7 /* ItemStore.swift */,
 				FAE17A6B1F0063EE00EE3BC7 /* Assets.xcassets */,
@@ -270,6 +273,7 @@
 			files = (
 				FAE17A931F00640F00EE3BC7 /* ItemsViewController.swift in Sources */,
 				FAE17A951F0064A100EE3BC7 /* Item.swift in Sources */,
+				F7FAA7A81F02E31600BE86F5 /* DetailViewController.swift in Sources */,
 				FAE17A971F00668700EE3BC7 /* ItemStore.swift in Sources */,
 				FAE17A651F0063EE00EE3BC7 /* AppDelegate.swift in Sources */,
 			);
@@ -524,6 +528,7 @@
 				FAE17A8B1F0063EF00EE3BC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAE17A8C1F0063EF00EE3BC7 /* Build configuration list for PBXNativeTarget "HomepwnerTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +537,7 @@
 				FAE17A8E1F0063EF00EE3BC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAE17A8F1F0063EF00EE3BC7 /* Build configuration list for PBXNativeTarget "HomepwnerUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +546,7 @@
 				FAE17A911F0063EF00EE3BC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
