@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F71440BA1F03DC1300040AAD /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71440B91F03DC1300040AAD /* ImageStore.swift */; };
 		F7FAA7A81F02E31600BE86F5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FAA7A71F02E31600BE86F5 /* DetailViewController.swift */; };
 		FAE17A651F0063EE00EE3BC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE17A641F0063EE00EE3BC7 /* AppDelegate.swift */; };
 		FAE17A6A1F0063EE00EE3BC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE17A681F0063EE00EE3BC7 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F71440B91F03DC1300040AAD /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 		F7FAA7A71F02E31600BE86F5 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FAE17A611F0063EE00EE3BC7 /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE17A641F0063EE00EE3BC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				FAE17A6D1F0063EE00EE3BC7 /* LaunchScreen.storyboard */,
 				FAE17A701F0063EE00EE3BC7 /* Info.plist */,
 				FAE17A921F00640F00EE3BC7 /* ItemsViewController.swift */,
+				F71440B91F03DC1300040AAD /* ImageStore.swift */,
 			);
 			path = Homepwner;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				F7FAA7A81F02E31600BE86F5 /* DetailViewController.swift in Sources */,
 				FAE17A971F00668700EE3BC7 /* ItemStore.swift in Sources */,
 				FAE17A651F0063EE00EE3BC7 /* AppDelegate.swift in Sources */,
+				F71440BA1F03DC1300040AAD /* ImageStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -162,7 +162,11 @@
                                     <constraint firstAttribute="height" constant="44" id="JW5-gW-5dG"/>
                                 </constraints>
                                 <items>
-                                    <barButtonItem systemItem="camera" id="F1w-Ga-iA7"/>
+                                    <barButtonItem systemItem="camera" id="F1w-Ga-iA7">
+                                        <connections>
+                                            <action selector="takePicture:" destination="rsy-Xo-Gvg" id="dfk-K6-ean"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
